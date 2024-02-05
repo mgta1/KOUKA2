@@ -10,6 +10,6 @@ class Player_display extends Player {
 
     // 表示するためのメソッド
     public void introduce() {
-        System.out.println("あなたの名前とランクは:" + getName() + "RANK:" + getRank());
+        System.out.println("あなたの名前とランクは:  " + getName() + "さん   " + "[RANK:" + getRank() + "]");
     }
 }
